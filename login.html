@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+
+        .box{
+            background-color: #eeeeee;
+            width: 23pc;
+            font-size: 20px;
+            margin: 0 auto;
+            margin-top: 2pc;
+            box-shadow: 2px 2px 8px rgba(156, 68, 6, 0.779);
+            border-radius: 10px;
+            padding: 55px;
+            font-family: Cambria;
+        }
+
+        body{
+            background-color: rgba(37 , 35 , 35);
+        }
+
+        input{
+            height: 36px;
+            width: 20pc;
+        }
+
+        #login{
+            padding: 13px;
+            border: 5px;
+            text-decoration: none;
+            border: 1px solid black;
+        }
+
+        #login:hover{
+            background-color: rgba(156, 68, 6, 0.779);
+            color: #eeeeee;
+            border: none;
+        }
+        #login:active{
+            background-color: rgba(37 , 35 , 35);
+            color: #eeeeee;
+        }
+        .account:hover{
+            color: rgba(156, 68, 6, 0.779);
+        }
+        .account:active{
+            color: rgba(37 , 35 , 35);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+    
+        <center>
+            <h3>LOGIN FORM</h3>
+            <label>Username</label><br>
+            <input type="text" placeholder="Username"><br><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="Password"><br><br><br>
+            <a href="home.html" id="login">LOGIN</a>
+            <p>Don't have account?<a class="account" href="createaccount.html"><u>Sign up</u></a></p>
+        </center>
+    </div>
+</body>
+</html>

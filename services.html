@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Page</title>
+    <style>
+        *{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        body{
+            background-color: rgb(37 , 35 ,35);
+        }
+        acronym{
+            text-decoration: none;
+        }
+        .nav-bar{
+            padding: 10px;
+            background-color: #eeeeee;
+        }
+        ul{
+            margin-left: 10pc;
+        }
+        #link{
+            color: rgb(37 , 35 ,35);
+            padding: 26px;
+            text-decoration: none;
+        }
+        #link:hover{
+            background-color: rgba(156, 68, 6, 0.779);
+            color: #eeeeee;
+        }
+        #logo{
+            margin-right: 2pc;
+            font-size: 2rem;
+        }
+        li{
+            display: inline;
+        }
+        .active{
+            color: black;
+            border-bottom: 3px solid;
+            width: 50px;
+        }
+        .click{
+            
+            color: rgba(156, 68, 6, 0.779);
+        }
+        .details{
+            color: #eeeeee;
+        }
+        img{
+            margin-top: 1pc;
+            height: 20pc;
+            width: 20pc;
+        }
+        br{
+            display: none;
+        }
+        .customer1{
+            color: rgb(37 , 35 ,35);
+            background-color: #eeeeee;
+        }
+        .desc1{
+            float: right;
+            margin-right: 10pc;
+        }
+        .customer2{
+            color: rgb(37 , 35 ,35);
+            background-color: #eeeeee;
+        }
+        .desc2{
+            float: left;
+        }
+        .desc3{
+            float: right;
+        }
+        .customer3{
+            background-color: #eeeeee;
+        }
+        @media screen and (max-width: 600px) {
+            #logo{
+                font-size: 20px;
+                margin: 0;
+                display: none;
+            }
+            .nav-bar{
+                height: 1pc;
+                padding: 1pc;
+                background-color: #eeeeee;
+            }
+            img{
+                width: 10pc;
+                height: 10pc;
+            }
+            ul{
+                margin: 0;
+            }
+            #link{
+                left: 20pc;
+                padding: 10px;
+            }
+            .click{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <ul>
+            <li id="logo">JEWELRY <br> SHOP</li>
+            <li><a href="home.html" id="link"><acronym title="HOME">HOME</acronym></a></li>
+            <li><a href="market.html" id="link"><acronym title="MARKET">MARKET</acronym></a></li>
+            <li><a href="services.html" class="active" id="link"><acronym title="SERVICES">SERVICES</acronym></a></li> 
+            <li><a href="createaccount.html" id="link"><acronym title="SIGN UP">SIGN UP</acronym></a></li>               
+        </ul>
+    </div>
+    <div class="details">
+        <img src="../PROJECT/images/logo.webp" alt="logo">
+        <center>
+        <h3>We provide you the following</h3>
+        </center>
+        <h3>Customer Information</h3>
+    <div class="customer1">
+        <img src="../PROJECT/images/customer1.jpg" alt="img">
+        <div class="desc1">
+            <p>Welcome to cutomer information here you can see all our information you want to know.</p>
+            <p>Here are our details:</p>
+            <p>Our location: Kigali,Rwanda</p>
+            <p>Contact Us: 0722449076</p>
+            <p>Our Email: isibolionel@gmail.com</p>
+        </div>
+    </div>
+    <h2>Jewelry Description</h2>
+    <div class="customer2">
+        <img src="../PROJECT/images/description.jpg" alt="img">
+        <div class="desc2">
+            <p>This is a part where we will describe our jewelries to you so that you can find everything you need on the Jewelry.</p>
+            <p>Every product here can be described according to the way you want it to be described.</p>
+            <p>When you want know about our products you can get a button where you can see all our products we have in Lionel Jewelry Shop</p>
+            <p>Want to see our products?<a href="images.html" class="click">Click here</a></p>
+        </div>
+    </div>
+        <h3>Service Details</h3>
+    <div class="cutomer3">
+        <img src="../PROJECT/images/services.jpg" alt="img">
+        <div class="desc3">
+            <h3>Types of services requested</h3>
+            <p>We can help you with this services and we offer them on a cheap price</p>
+            <ul>
+                <p>Repair</p>
+                <p>Cleaning</p>
+                <p>Appraisal</p>
+                <p>Ring Resizing</p>
+                <p>Stone Replacement</p>
+                <p>you want to know many,Just contact us/p>
+            </ul>
+
+        </div>
+</body>
+</html>
